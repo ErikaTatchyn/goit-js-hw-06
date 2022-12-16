@@ -14,7 +14,6 @@ const images = [
 ];
 
 const galleryListEl = document.querySelector(".gallery");
-galleryListEl.style.display = "flex";
 
 const makeGalleryCard = ({ url, alt } = {}) => {
   return `
