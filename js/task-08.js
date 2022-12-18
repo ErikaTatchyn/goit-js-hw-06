@@ -20,5 +20,6 @@ formEl.addEventListener("submit", (event) => {
       email: elements.email.value,
       password: elements.password.value,
     });
+    formEl.reset();
   }
 });
